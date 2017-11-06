@@ -1923,6 +1923,12 @@
 		"enabled"		"1"
 		"border"		"TFThinLineBorder"
 		
+		if_mvm
+		{
+			"xpos"			"25"
+			"ypos"			"15"
+		}
+		
 		"PartySlot0"
 		{
 			"ControlName"	"CDashboardPartyMember"
