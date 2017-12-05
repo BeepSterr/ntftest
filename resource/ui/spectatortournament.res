@@ -26,7 +26,7 @@
 			"tall"			"40"
 			"zpos"			"1"
 			
-			"color_ready"	"0 255 0 220"
+			"color_ready"	"60 60 255 220"
 			"color_notready"	"0 0 0 220"
 										  			
 			"playername"
@@ -143,6 +143,11 @@
 				{
 					"visible"		"1"
 				}	
+				
+				if_readymode
+				{
+					"visible"		"0"
+				}
 			}
 			
 			"ReadyImage"
@@ -248,8 +253,8 @@
 	{
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
-		"visible"		"1"
-		"tall"			"25"
+		"visible"		"0"
+		"tall"			"0"
 	}
 	"BottomBar"
 	{

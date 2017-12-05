@@ -2,9 +2,8 @@
 {	
 	"TimePanelBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
-		"fillcolor"		"32 32 32 240"
 		"xpos"			"16"
 		"ypos"			"9"
 		"zpos"			"2"
@@ -12,6 +11,17 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_blue_bg"	
+		"scaleImage"		"1"	
+		"src_corner_height"	"3"
+		"src_corner_width"	"3"
+		"draw_corner_width"	"0"
+		"draw_corner_height" 	"0"
+		
+		if_match
+		{
+			"visible"	"0"
+		}
 	}
 	"TimePanelProgressBar"
 	{
@@ -43,7 +53,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"70"
+		"xpos"			"65"
 		"ypos"			"16"
 		"zpos"			"5"
 		"wide"			"78"
@@ -62,6 +72,18 @@
 		"font"			"HudFontSmallestBold"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
+		
+		if_match
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"0"
+			"ypos"					"21"
+			"ypos_minmode"			"21"
+			"wide"					"130"
+			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
+		}
 
 	}			
 	"WaitingForPlayersBG"
@@ -87,7 +109,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"70"
+		"xpos"			"65"
 		"ypos"			"16"
 		"zpos"			"5"
 		"wide"			"78"
@@ -106,6 +128,18 @@
 		"font"			"HudFontSmallestBold"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
+		
+		if_match
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"0"
+			"ypos"					"21"
+			"ypos_minmode"			"21"
+			"wide"					"130"
+			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
+		}
 
 	}			
 	"OvertimeBG"
@@ -131,7 +165,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"70"
+		"xpos"			"65"
 		"ypos"			"16"
 		"zpos"			"5"
 		"wide"			"78"
@@ -150,6 +184,18 @@
 		"font"			"ClockSubTextSuddenDeath"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
+		
+		if_match
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"0"
+			"ypos"					"21"
+			"ypos_minmode"			"21"
+			"wide"					"130"
+			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
+		}
 
 	}			
 	"SuddenDeathBG"
@@ -175,7 +221,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"70"
+		"xpos"			"65"
 		"ypos"			"16"
 		"zpos"			"5"
 		"wide"			"78"
@@ -192,6 +238,18 @@
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
+		if_match
+		{
+			"proportionaltoparent"	"1"
+			"xpos"					"0"
+			"ypos"					"21"
+			"ypos_minmode"			"21"
+			"wide"					"130"
+			"font"					"HudFontSmallestBold"
+			"font_hidef"			"HudFontSmallestBold"
+			"font_lodef"			"HudFontSmallestBold"
+		}
+		
 	}	
 	"SetupBG"
 	{

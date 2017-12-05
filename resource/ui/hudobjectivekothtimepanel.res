@@ -85,6 +85,7 @@
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
+				"textAlignment"		"center"
 			
 			}
 		}	
@@ -167,6 +168,7 @@
 				"font"			"HudFontSmall"
 				"font_minmode"	"HudFontSmall"
 				"font_lodef"	"HudFontSmall"
+				"textAlignment"		"center"
 			
 			}
 		}	
@@ -176,7 +178,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ActiveTimerBG"
-		"fillcolor"		"255 255 255 255"
+		"fillcolor"		"255 255 255 100"
 		"xpos"			"16"
 		"ypos"			"9"
 		"zpos"			"4"
@@ -184,6 +186,11 @@
 		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-	}
+		
+		if_match
+		{
+			"visible"		"0"
+		}
+		
 	}
 }

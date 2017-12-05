@@ -42,4 +42,46 @@
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
+	"CustomDisconnect"
+	{
+		"label"			""
+		"command"		"disconnect"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_disconnect"
+		"tooltip"		"#TF_Disconnect"
+	}
+	"CustomPartyLeave"
+	{
+		"label"			""
+		"command"		"engine tf_party_leave"
+		"OnlyInGame"	"0"
+		"subimage"		"glyph_disconnect"
+		"tooltip"		"Leave Party"
+	}	
+	"CustomPartyChatToggle"
+	{
+		"label"			""
+		"Command"		"toggle_chat"
+		"OnlyInGame"	"0"
+		"subimage"		"glyph_chat"
+		"tooltip"		"Party Chat"
+		"wide"			"0"
+		"tall"			"0"
+		"actionsignallevel"	"2"
+		
+	}	
+	"ResumeButtonTwo"
+	{
+		"label"			""
+		"Command"		"engine cancelselect"
+		"OnlyInGame"	"1"
+		"subimage"		"icon_resume"
+		"tooltip"		"#MMenu_ResumeGame"
+		"wide"			"64"
+		
+		"mouseinputenabled"	"1"
+		"keyboardinputenabled"	"0"
+		"actionsignallevel"	"2"
+		
+	}
 }

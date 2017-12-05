@@ -17,8 +17,8 @@ Scheme
 	{
 		// base colors
 		"White"				"255 255 255 255"
-		"OffWhite"			"216 216 216 255"
-		"DullWhite"			"255 142 142 255"
+		"OffWhite"			"216 216 216 0"
+		"DullWhite"			"255 255 255 0"
 		"Orange"			"255 155 0 255"
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"0 0 0 255"
@@ -59,7 +59,7 @@ Scheme
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
-		"Chat.TypingText"		"Black"
+		"Chat.TypingText"		"White"
 
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
